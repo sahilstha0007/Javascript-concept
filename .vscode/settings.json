@@ -1,0 +1,35 @@
+{
+    "background.panelBackgrounds": [
+        "c:/Users/Sahil/Downloads/wp7780136.jpg"
+    ],
+    "background.editorBackgrounds": [
+        "c:/Users/Sahil/OneDrive/Desktop/Vs code background/sasuke-uchiha-mh.jpg"
+    ],
+    "background.backgroundOpacity": [
+        0.1,
+        0.3,
+        0.3,
+        0.3
+    ],
+    "background.backgroundRepeat": [
+        "No Repeat",
+        "No Repeat",
+        "Repeat",
+        "Repeat"
+    ],
+    "background.backgroundSize": [
+        "Cover",
+        "Cover",
+        "Contain",
+        "Manual"
+    ],
+    "background.sidebarBackgrounds": [
+        "c:/Users/Sahil/Downloads/2842097.jpg"
+    ],
+    "background.backgroundSizeValue": [
+        "100%",
+        "100%",
+        "50%",
+        "50%"
+    ]
+}

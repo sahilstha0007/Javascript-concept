@@ -14,8 +14,8 @@
 
 
 // Third parameter false default in addEventListener
-document.getElementById("owl").addEventListener("click", (event) => {
-    console.log(event)
+document.getElementById("images").addEventListener("click", (event) => {
+    console.log("clicked inside the ul")
 }, false)
 
 // Event propogation
@@ -24,3 +24,12 @@ document.getElementById("owl").addEventListener("click", (event) => {
 
 
 // Examples
+// Bubbling
+document.getElementById("owl").addEventListener("click", (event) => {
+    console.log("owl clicked")
+}, false)
+//Capturing
+document.getElementById("owl").addEventListener("click", (event) => {
+    console.log("owl clicked")
+    event.stopPropagation
+}, true)
